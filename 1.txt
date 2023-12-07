@@ -4,5 +4,8 @@ def findMax(n):
         if n[i] > maxe:
             maxe = n[i]
     return maxe
-n = list(map(int, input().split()))
-print(findMax(n))
+arr = []
+n = int(input())
+for i in range(n):
+    arr.append(int(input()))
+print(findMax(arr))
