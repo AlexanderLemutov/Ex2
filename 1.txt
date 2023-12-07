@@ -1,0 +1,8 @@
+def findMax(n):
+    maxe = -10**1000
+    for i in range(len(n)):
+        if n[i] > maxe:
+            maxe = n[i]
+    return maxe
+n = list(map(int, input().split()))
+print(findMax(n))
